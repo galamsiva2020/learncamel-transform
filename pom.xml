@@ -6,9 +6,10 @@
 
     <groupId>com.learncamel</groupId>
     <artifactId>learncamel-transform</artifactId>
-     <packaging>jar</packaging>
     <version>1.0-SNAPSHOT</version>
+     <packaging>jar</packaging>
      <name>Learn_camelTransformtest</name>
+      <url>http://maven.apache.org</url>
 
     <dependencies>
 
