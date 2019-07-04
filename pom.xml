@@ -6,9 +6,9 @@
 
     <groupId>com.learncamel</groupId>
     <artifactId>learncamel-transform</artifactId>
-      <packaging>jar<packaging/>
+       <packaging>jar</packaging>
     <version>1.0-SNAPSHOT</version>
-     <name>Learn_camel Transformtest<name/>
+     <name>Learn_camel Transformtest</name>
 
     <dependencies>
 
