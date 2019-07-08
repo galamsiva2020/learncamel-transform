@@ -15,7 +15,7 @@ node {
    stage('Maven Build') {
       // Run the maven build
 	 mvnHome = 'C:/Users/raju_/Downloads/apache-maven-3.6.1'
-	   
+   }
    stage('TestResults') {
       junit '**/target/surefire-reports/TEST-*.xml'
       archiveArtifacts 'target/*.jar'
