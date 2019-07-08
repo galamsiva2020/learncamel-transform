@@ -16,8 +16,11 @@ node {
       // Run the maven build
 	 mvnHome = 'C:/Users/raju_/Downloads/apache-maven-3.6.1'
    }
-   stage('TestResults') {
-      junit '**/target/surefire-reports/*.xml'
-      archiveArtifacts 'target/*.jar'
-   }
+	stage('Results'){
+	junit '${env.WORKSPACE}/tests/results/*.xml'
+	}
+   //stage('TestResults') {
+    //  junit '**/target/surefire-reports/*.xml'
+     // archiveArtifacts 'target/*.jar'
+  // }
 }
