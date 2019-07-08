@@ -18,6 +18,7 @@ node {
    }
 	stage('Results'){
 	//junit '${env.WORKSPACE}/target/surefire-reports/*.xml'
-		junit 'C:/Program Files (x86)/Jenkins/workspace/Infosys_ApplicationTest/target/test/*.xml'
+		junit '**/test/results/*.xml'
+		//junit 'C:/Program Files (x86)/Jenkins/workspace/Infosys_ApplicationTest/target/test/*.xml'
 	}
 }
